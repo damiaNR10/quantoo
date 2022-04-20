@@ -1,0 +1,88 @@
+a {
+    text-decoration: none;
+    color: $colorBlack;
+    display: inline-block;
+}
+
+body {
+    color: $colorBlack;
+    margin: 0;
+    font-weight: 400;
+    max-width: 100vw;
+    overflow-x: hidden;
+    display: grid;
+    grid-gap: 30px;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0;
+    color: $colorBlack;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1210px;
+    width: calc(100% - 40px);
+    padding: 0 20px;
+}
+
+div, section, header {
+    box-sizing: border-box;
+}
+
+fieldset {
+    margin: 0;
+    padding: 0;
+    display: block;
+    border: none;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    font-weight: 900;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+input {
+    border: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+main {
+    display: grid;
+    grid-gap: 30px;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
