@@ -86,6 +86,11 @@ ul {
   overflow: hidden;
 }
 
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
 .grid {
   display: grid;
 }
@@ -212,11 +217,6 @@ ul {
   height: calc(100% - 2px);
   justify-content: center;
   align-items: center;
-}
-
-.swiper {
-  width: 600px;
-  height: 300px;
 }
 
 /*# sourceMappingURL=/main.3d6386d6.css.map */

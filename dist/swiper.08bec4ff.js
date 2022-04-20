@@ -12695,8 +12695,8 @@ function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && 
 
 var swiper = new _swiper.default('.swiper', {
   // Optional parameters
-  direction: 'horizontal' // loop: true,
-  // // If we need pagination
+  direction: 'horizontal',
+  loop: true // // If we need pagination
   // pagination: {
   //   el: '.swiper-pagination',
   // },
@@ -12758,7 +12758,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58044" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58905" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
